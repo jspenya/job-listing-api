@@ -1,4 +1,4 @@
-# Job Listing API
+# Job Listing Rails API
 
 Things you may want to cover:
 
