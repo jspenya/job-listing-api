@@ -4,10 +4,10 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       get '/jobs', to: 'jobs#index'
-      get '/job/:id', to: 'jobs#show'
+      get '/jobs/:id', to: 'jobs#show'
       post '/jobs', to: 'jobs#create'
-      patch '/job/:id', to: 'jobs#update'
-      delete '/job/:id', to: 'jobs#destroy'
+      patch '/jobs/:id', to: 'jobs#update'
+      delete '/jobs/:id', to: 'jobs#destroy'
     end
   end
 end
